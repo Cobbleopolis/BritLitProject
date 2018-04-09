@@ -26,7 +26,8 @@ module.exports = {
     loading: {color: '#3B8070'},
 
     modules: [
-        'bootstrap-vue/nuxt'
+        'bootstrap-vue/nuxt',
+        '@nuxtjs/axios'
     ],
     /*
     ** Build configuration
@@ -42,7 +43,8 @@ module.exports = {
                     test: /\.(js|vue)$/,
                     loader: 'eslint-loader',
                     exclude: /(node_modules)/
-                })
+                });
+                config.devtool = 'eval-source-map'
             }
         }
     },

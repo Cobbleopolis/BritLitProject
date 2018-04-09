@@ -18,6 +18,9 @@
     import AppLogo from '~/components/AppLogo.vue'
 
     export default {
+        async fetch ({store, params}) {
+            await store.dispatch('users/getUsers')
+        },
         components: {
             AppLogo
         }

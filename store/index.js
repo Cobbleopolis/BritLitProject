@@ -1,43 +1,17 @@
-// import Vue from 'vue'
-import Vuex from 'vuex'
 import createLogger from 'vuex/dist/logger'
 
-// import usersModule from './modules/users'
+export const state = () => ({
+    name: process.env.name,
+    displayName: process.env.displayName,
+    version: process.env.version,
+    description: process.env.description,
+    author: process.env.author,
+})
 
-// Vue.use(Vuex)
+export const getters = {}
 
-// export default new Vuex.Store({
-//   state: {
-//
-//   },
-//   getters: {
-//
-//   },
-//   mutations: {
-//
-//   },
-//   modules: {
-//     users: usersModule
-//   },
-//   plugins: [createLogger()]
-// })
+export const mutations = {}
 
-const createStore = () => {
-    return new Vuex.Store({
-        state: {
-            name: process.env.name,
-            displayName: process.env.displayName,
-            version: process.env.version,
-            description: process.env.description,
-            author: process.env.author,
-        },
-        getters: {},
-        mutations: {},
-        modules: {
-            // users: usersModule
-        },
-        plugins: [createLogger()]
-    })
-}
+export const actions = {}
 
-export default createStore
+export const plugins = [createLogger()]
