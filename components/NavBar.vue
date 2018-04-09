@@ -14,11 +14,16 @@
 </template>
 
 <script>
+    import { mapState } from 'vuex'
+
     export default {
         name: 'nav-bar',
         created() {
             // console.log(this.$store.state)
-        }
+        },
+        computed: mapState({
+            users: 'users.users'
+        })
     }
 </script>
 

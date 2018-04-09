@@ -9,6 +9,9 @@
     import NavBar from '~/components/NavBar.vue'
 
     export default {
+        async fetch ({store, params}) {
+            await store.dispatch('users/getUsers')
+        },
         components: {
             NavBar
         }

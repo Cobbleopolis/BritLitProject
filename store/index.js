@@ -2,7 +2,7 @@
 import Vuex from 'vuex'
 import createLogger from 'vuex/dist/logger'
 
-// import usersModule from './modules/users'
+// import usersModule from './users'
 
 // Vue.use(Vuex)
 
