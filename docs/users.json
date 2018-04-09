@@ -2,7 +2,13 @@
   "users": [
     {
       "username": "cobbleopolis",
-      "name": "Cobble"
+      "name": "Cobble",
+      "blogName": "Cobbleopolis"
+    },
+    {
+      "username": "testing",
+      "name": "John Doe",
+      "blogName": "Testing Blog"
     }
   ]
 }
