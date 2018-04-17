@@ -20,7 +20,10 @@
     export default {
         components: {
             AppLogo
-        }
+        },
+        fetch ({store}) {
+            store.dispatch('users/fetchUsers')
+        },
     }
 </script>
 
