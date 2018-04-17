@@ -27,7 +27,7 @@ export const mutations = {
 export const actions = {
     fetchUsers({state, commit}) {
         if (Object.keys(state.users).length !== 0) return;
-        this.$axios.get("/users.json")
+        this.$axios.get("/BritLitProject/users.json")
             .then((res) => commit('setUsers', res.data.users))
     }
 }

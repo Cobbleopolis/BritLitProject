@@ -29,6 +29,9 @@ module.exports = {
         'bootstrap-vue/nuxt',
         '@nuxtjs/axios'
     ],
+    router: {
+        base: '/BritLitProject/'
+    },
     /*
     ** Build configuration
     */
