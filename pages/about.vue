@@ -11,7 +11,7 @@
 <script>
     export default {
         fetch ({store}) {
-            store.dispatch('users/fetchUsers')
+            // store.dispatch('users/fetchUsers')
         }
     }
 </script>

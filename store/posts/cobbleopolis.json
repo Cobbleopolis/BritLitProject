@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "title": "Lorem Ipsum",
+      "date": "Wed Dec 31 1969 19:00:00 GMT-0500",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse blandit feugiat feugiat. Vestibulum consequat lacinia laoreet. Praesent volutpat dolor libero, non semper sapien lobortis ut. Pellentesque convallis lectus eu hendrerit dictum. Vivamus ac lacinia nibh. Cras orci quam, cursus quis neque fermentum, imperdiet tempor ex. Pellentesque turpis ex, porttitor vitae odio vitae, finibus euismod tortor. Morbi facilisis eros vel fermentum feugiat."
+    },
+    {
+      "title": "Lorem Ipsum",
+      "date": "Wed Dec 31 1970 19:00:00 GMT-0500",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse blandit feugiat feugiat. Vestibulum consequat lacinia laoreet. Praesent volutpat dolor libero, non semper sapien lobortis ut. Pellentesque convallis lectus eu hendrerit dictum. Vivamus ac lacinia nibh. Cras orci quam, cursus quis neque fermentum, imperdiet tempor ex. Pellentesque turpis ex, porttitor vitae odio vitae, finibus euismod tortor. Morbi facilisis eros vel fermentum feugiat."
+    },
+    {
+      "title": "Lorem Ipsum",
+      "date": "Wed Dec 31 1971 19:00:00 GMT-0500",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse blandit feugiat feugiat. Vestibulum consequat lacinia laoreet. Praesent volutpat dolor libero, non semper sapien lobortis ut. Pellentesque convallis lectus eu hendrerit dictum. Vivamus ac lacinia nibh. Cras orci quam, cursus quis neque fermentum, imperdiet tempor ex. Pellentesque turpis ex, porttitor vitae odio vitae, finibus euismod tortor. Morbi facilisis eros vel fermentum feugiat."
+    },
+    {
+      "title": "Lorem Ipsum",
+      "date": "Wed Dec 31 1972 19:00:00 GMT-0500",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse blandit feugiat feugiat. Vestibulum consequat lacinia laoreet. Praesent volutpat dolor libero, non semper sapien lobortis ut. Pellentesque convallis lectus eu hendrerit dictum. Vivamus ac lacinia nibh. Cras orci quam, cursus quis neque fermentum, imperdiet tempor ex. Pellentesque turpis ex, porttitor vitae odio vitae, finibus euismod tortor. Morbi facilisis eros vel fermentum feugiat."
+    }
+  ]
+}
