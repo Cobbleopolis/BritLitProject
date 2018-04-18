@@ -4,7 +4,7 @@ import cobblePosts from './posts/cobbleopolis'
 
 export const state = () => ({
     posts: {
-        cobbleopolis: cobblePosts.posts.map(post => new Post(post.title, post.date, post.content))
+        cobbleopolis: cobblePosts.posts.map(post => new Post(post.title, post.content))
     }
 })
 
