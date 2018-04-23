@@ -1,10 +1,10 @@
 import Post from '~/api/post'
 import createLogger from 'vuex/dist/logger'
-import cobblePosts from './posts/cobbleopolis'
+import algernonPosts from './posts/algernon'
 
 export const state = () => ({
     posts: {
-        cobbleopolis: cobblePosts.posts.map(post => new Post(post.title, post.content))
+        algernon: algernonPosts.posts.map(post => new Post(post.title, post.content))
     }
 })
 
