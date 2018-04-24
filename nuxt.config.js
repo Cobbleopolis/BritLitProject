@@ -26,11 +26,11 @@ module.exports = {
     loading: {color: '#3B8070'},
 
     modules: [
-        'bootstrap-vue/nuxt',
-        '@nuxtjs/axios'
+        'bootstrap-vue/nuxt'
     ],
     router: {
-        base: '/BritLitProject/'
+        base: '/BritLitProject/',
+        mode: 'hash'
     },
     /*
     ** Build configuration
